@@ -18,7 +18,7 @@ function renderArticles() {
         }
         articlesHtml += `
         <article ${hidden}>
-                <img src="/images/${postData[i].img}" alt="Blog image">
+                <img src="images/${postData[i].img}" alt="Blog image">
                 <h3 class="article-date">${postData[i].date}</h3>
                 <h2 class="article-title">
                     ${postData[i].title}
