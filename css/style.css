@@ -72,10 +72,6 @@ footer {
     padding: 2.125em 1.125em 3.125em;
 }
 
-.about-me-text {
-    padding: 3.125em;
-}
-
 .current-post-title {
     margin-bottom: 2.25em;
 }
@@ -233,6 +229,10 @@ article img {
 
     .about-me-heading img {
         margin-right: 2em;
+    }
+
+    .about-me-text {
+        padding: 3.125em;
     }
 
     .current-post-title,
