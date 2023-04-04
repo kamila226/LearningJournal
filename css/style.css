@@ -43,17 +43,33 @@ nav li {
 }
 
 .hero-post {
+    position: relative;
     background-image: url("/images/blog-image-hero.png");
     background-position: center;
     background-size: cover;
     height: 60vw;
     max-height: 488px;
+    min-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding: 1.56em 1.25em;
     color: #fff;
     cursor: pointer;
+}
+
+.darken {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0));
+}
+
+.hero-text {
+    position: absolute;
+    z-index: 1;
 }
 
 .article-listing {
@@ -260,4 +276,9 @@ article img {
     .hamburger {
         display: inline-block;
     }
+
+    .article-preview-hero {
+        display: none;
+    }
+
 }
