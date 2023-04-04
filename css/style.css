@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -59,7 +63,6 @@ nav li {
 }
 
 footer {
-    /*margin-top: 2.69em;*/
     padding: 2.31em 0;
     background-color: #202020;
     color: #fff;
@@ -70,6 +73,10 @@ footer {
 .about-me,
 .current-post {
     padding: 2.125em 1.125em 3.125em;
+}
+
+.about-me-text {
+    padding-top: 3.125em;
 }
 
 .current-post-title {
@@ -180,7 +187,7 @@ nav a {
 
 .hamburger a {
     display: block;
-    padding: 10px 5px;
+    padding: 0.625em 1.25em;
     margin: 0;
 }
 
